@@ -1,0 +1,93 @@
+
+.listTasksOpen{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1 px solid var(--gray-400);
+    background: var(--gray-500);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    font-weight: 700;
+    cursor: pointer;
+}
+.listTasksOpen span{
+    color: var(--gray-100);
+    font-family: inter;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    
+}
+.listTasksClosed{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1 px solid var(--gray-400);
+    background: var(--gray-500);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+    font-weight: 700;
+    cursor: pointer;
+}
+.listTasksClosed span{
+    color: var(--gray-300);
+    font-family: inter;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 400;
+    line-height: 140%;
+    text-decoration: line-through;
+    transition: background-color 0.1s;
+    
+}
+.listTasksOpen:hover svg circle{
+    stroke: var(--blue-dark);
+}
+.listTasksClosed   input[type="checkbox"] {
+    display: none;
+}
+.listTasksOpen input[type="checkbox"] {
+    display: none;
+}
+.listTasksOpen button{
+    background: none;
+    border:none;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 5px 5.522px 5px 6px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.1s;
+    color: var(--gray-100);
+}
+
+.listTasksOpen button:hover{
+    color: var(--danger);
+    background-color: var(--gray-400);
+}
+
+.listTasksClosed button{
+    background: none;
+    border:none;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    padding: 5px 5.522px 5px 6px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.1s;
+    color: var(--gray-100);
+}
+
+.listTasksClosed button:hover{
+    color: var(--danger);
+    background-color: var(--gray-400);
+}

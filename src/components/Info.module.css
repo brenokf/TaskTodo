@@ -1,0 +1,72 @@
+.infoTasks{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+.infoTasks .created{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.infoTasks .created h4{
+    color: var(--blue);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.infoTasks .created .counter{
+    display: flex;
+    padding: 2px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+    background: var(--gray-400);
+}
+.infoTasks .created .counter p{
+    color: var(--gray-200);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.infoTasks .done{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.infoTasks .done h4{
+    color: var(--purple);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.infoTasks .done .counter {
+    display: flex;
+    padding: 2px 8px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+    background: var(--gray-400);
+}
+
+.infoTasks .done .counter p {
+    color: var(--gray-200);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}

@@ -1,0 +1,8 @@
+.tasksContent{
+    display: flex;
+    width: 736px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 64px;
+}

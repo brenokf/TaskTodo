@@ -1,0 +1,53 @@
+
+.actionTask{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 736px;
+    height:54px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+input{
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+    color: var(--gray-100);
+    transition: border-color 0.1s;
+}
+input:focus{
+    outline: none !important;
+    background: var(--gray-500);
+    border: 1px solid var(--purple-dark);
+}
+
+.btnCreate{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    color: var(--gray-100);
+    background: var(--blue-dark);
+    transition: background-color 0.1s;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    gap: 8px;
+}
+
+.btnCreate:hover{
+    background-color: var(--blue);
+}
+
+.btnCreate svg{
+   width: 16px;
+   height: 16px;
+} 
