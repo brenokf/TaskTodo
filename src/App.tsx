@@ -26,8 +26,7 @@ function App() {
     }
     function onDeleteTaskNewTask(taskToDelete){
         const newTaskUpdate = newTask.filter(task=>task.id !== taskToDelete.id)
-        console.log({newTaskUpdtae:newTaskUpdate,taskToDelete:taskToDelete})
-    setNewTask(newTaskUpdate)
+        setNewTask(newTaskUpdate)
     }
 
     function handleEmptyTask(){

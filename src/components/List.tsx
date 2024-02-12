@@ -16,8 +16,6 @@ export function List({content,tasks,done, onDelete}){
         const data = tasks.filter(task=>task.content === content)
         onDelete(data)
     }
-
-
     return(
         <>
                 { 
