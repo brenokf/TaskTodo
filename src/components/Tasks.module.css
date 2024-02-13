@@ -6,3 +6,22 @@
     gap: 24px;
     padding-top: 64px;
 }
+@media  (max-width: 800px) {
+    .tasksContent{
+        display: flex;
+        width: 650px;
+    }
+}
+
+@media  (max-width: 780px) {
+    .tasksContent{
+        display: flex;
+        width: 500px;
+    }
+}
+@media (max-width: 680px) {
+    .tasksContent{
+        display: flex;
+        width: 450px;
+    }
+}

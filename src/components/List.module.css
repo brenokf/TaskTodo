@@ -91,3 +91,119 @@
     color: var(--danger);
     background-color: var(--gray-400);
 }
+
+
+
+
+@media  (max-width: 800px) {
+    .listTasksOpen{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 650px;
+    }
+    .listTasksOpen span{
+        width: 650px;
+        
+    }
+    .listTasksClosed{
+        display: flex;
+        width: 650px;
+    }
+    .listTasksClosed span{
+        color: var(--gray-300);
+        font-family: inter;
+        font-size: 14px;
+        width: 650px;
+        font-weight: 400;
+        line-height: 140%;
+        text-decoration: line-through;
+        transition: background-color 0.1s;
+        
+    }
+}
+
+@media  (max-width: 780px) {
+    .listTasksOpen{
+        width: 500px;
+        display: flex;
+        padding: 16px;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        align-self: stretch;
+        border-radius: 8px;
+        border: 1 px solid var(--gray-400);
+        background: var(--gray-500);
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .listTasksOpen span{
+        color: var(--gray-100);
+        font-family: inter;
+        width: 500px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        
+    }
+    .listTasksClosed{
+        display: flex;
+        width: 500px;
+        padding: 16px;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        align-self: stretch;
+        border-radius: 8px;
+        border: 1 px solid var(--gray-400);
+        background: var(--gray-500);
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .listTasksClosed span{
+        color: var(--gray-300);
+        font-family: inter;
+        font-size: 14px;
+        width: 500px;
+        font-weight: 400;
+        line-height: 140%;
+        text-decoration: line-through;
+        transition: background-color 0.1s;
+        
+    }
+
+
+    
+}
+
+@media (max-width: 680px) {
+
+    .listTasksOpen{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+    }
+    .listTasksOpen span{
+        width: 450px;
+        
+    }
+    .listTasksClosed{
+        display: flex;
+        width: 450px;
+    }
+    .listTasksClosed span{
+        color: var(--gray-300);
+        font-family: inter;
+        font-size: 14px;
+        width: 450px;
+        font-weight: 400;
+        line-height: 140%;
+        text-decoration: line-through;
+        transition: background-color 0.1s;
+        
+    }
+}
