@@ -70,3 +70,36 @@
     line-height: normal;
 
 }
+
+@media  (max-width: 800px) {
+    .infoTasks{
+        display: flex;
+        width: 650px;
+        justify-content: space-between;
+        align-items: flex-end;
+        align-self: stretch;
+    }
+}
+
+@media  (max-width: 780px) {
+
+    .infoTasks{
+        display: flex;
+        width: 500px;
+        justify-content: space-between;
+        align-items: flex-end;
+        align-self: stretch;
+    }
+
+}
+@media (max-width: 680px) {
+
+    .infoTasks{
+        display: flex;
+        width: 450px;
+        justify-content: space-between;
+        align-items: flex-end;
+        align-self: stretch;
+    }
+
+}
